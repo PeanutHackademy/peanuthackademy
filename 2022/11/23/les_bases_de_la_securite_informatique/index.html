@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="PeanutSquad">
+
+
+
+
+
+
+
+<title>Peanut Hackademy</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/frame.js"></script>
+    
+
+
+
+
+
+
+
+
+
+
+  <meta name="generator" content="Hexo 6.3.0"></head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            Peanut Hackademy
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">Home</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">Cours</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/Liens/">Liens</a>
+              </li> 
+                   
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+        </div>
+        <div class="post-title">
+            
+            
+                *Untitled
+            
+            
+        </div>
+        <span class="post-date">
+            23 Nov, 2022
+        </span>
+    </div>
+    <div class="post-img">
+        
+            <div class="h-line-primary"></div>
+              
+    </div>
+</div>
+    <div class="post-content">
+    <hr>
+<p>layout: post<br>title: “Les bases de la sécurité informatique”<br>date: 2022-11-23<br>tags: sécurité, level1</p>
+<hr>
+<p>Quand on parle de sécurité informatique on pense rapidement aux pirates informatiques, les Hackers. et vous avez raison.<br>Dans ce cours nous allons voir les bases simple ainsi que les bonnes habitudes à avoir pour se protéger de manière efficaces contre la majorité des attaques informatiques. Biensûr, avoir une sécuité infaillible sur internet est impossible mais tachons de ne pas facilité le travail aux personnes malveillantes.</p>
+<p>C’est pourquoi dans ce cours nous allons voir :</p>
+<ul>
+<li>Les attaques connus</li>
+<li>Création de mot de passe et utilisation</li>
+<li>Les bons reflexes a avoir à la reception d’un mail suspect</li>
+<li>Les bons réflexes à avoir sur internet</li>
+<li>Les bons reflexes à avoir au travail</li>
+<li>Le comportement à adopter face aux supports externes</li>
+<li>L’importances des réseaux sociaux</li>
+<li>Comment aller plus loin</li>
+</ul>
+<blockquote>
+<p>Une sécurité efficace n’est pas une sécurité inviolable mais plutôt une sécurité assez puissante pour dissuader toutes actions. Le but étant de décourager l’attaquant de par la complexité de votre sécurité.</p>
+</blockquote>
+<h2 id="Les-attaques-informatiques-les-plus-connus"><a href="#Les-attaques-informatiques-les-plus-connus" class="headerlink" title="Les attaques informatiques les plus connus"></a>Les attaques informatiques les plus connus</h2><p>Dans la liste des différents attaques informatiques on retrouve une multitudes de techniques et de supports impliqué. Que ce soit en ligne, en physique sur votre machine ou logiciel, tout en passant par les attaques social, qui implique des personnes physique.</p>
+<p>Voici donc quelques attaques informatiques interressantes à connaitres .</p>
+<p>L’une des plus connue, le DDOS ou le DOS.<br>Le DDOS pour “Distributed Denial of service” à ne pas confondre avec le DOS pour Denial of service” qui sont relativement proche mais une petite suptilité les sépares.</p>
+<p>DOS repose sur un fonctionnement simple. Le but est de submerger un système pour qu’il ne puisse répondre aux différentes requetes. Le DDOS fonctionne de la même manière, cependant l’attaque vient de différentes machines afin de multiplier la violence de l’attaque. Le plus souvent depuis des “botnet”, termes que nous allons expliquer juste après, qui ne sont que des machines infectés par des logiciels malveillants.</p>
+<p>Voila trois types d’attaques DOS et DDOS.</p>
+<ul>
+<li><p>Le ping de la mort ; de l’anglais “ping of death”, cette attaque consiste a envoyer des paquets IP fragementés par le pirate dépassant la taille maximale de 65535 octets. De ce fait, l’hors de la reconstruction des paquets par le serveur, ce dernier subit des débordements tampon et des rallentissements importants, voir même des plantages.</p>
+</li>
+<li><p>Les botnets ; c’est l’attaque la plus connue pour le DDOS. Cela consiste à rassembler des millions de machines infectés grace à des logiciels malveillants et d’en faire une armée de PC zombies. Le but étant de tous les faire communiquer en même temps avec une seul et même cible. Submergant ainsi la bande passante et la capacité de traitements de la cible.</p>
+</li>
+<li><p>L’attaque TCP SYN flood ; cette attaque fonctionne à partir du fonctionnement de la connexion TCP en submergant la zone tampon lors de “l’handshake” d’initialisation de session TCP. La cible se met alors a tamporiser les réponses alors que l’attaquant ne réagit pas, ce qui provoque des ralentissements et des plantages.</p>
+</li>
+</ul>
+<p>Le Phishing ou hameçonnage en Français</p>
+<p>“Vous êtes le 1000e visiteurs, remplicer votre numéro de carte bleu et recevez un iPhone chez vous GRATUITEMENT !”</p>
+<p>C’est typiquement le genre de mail que vous pouvez recevoir. Et bien, c’est du phishing. Le but est de vous envoyer un mail en vous incitant à renseigner des informations sensible, à télécharger une pièce jointe malveillante ou encore vous rediriger vers un site falcifier. </p>
+<p>Le phishing peut être cibler et dans ce cas l’attaquant prend le temps de faire des recherches sur sa cible afin de personnaliser au mieux son attaque, c’est ce qu’on appel le “spear phishing”. Ou au contraire, très générique et dans ce cas le but est simplement d’arroser un maximum de personnes afin de multiplier les chances de reussites.</p>
+<p>Dans le cas d’un spear phishing, les pirates ne manquent pas d’immagination.<br>Il est possible de falcifier le champ “De” d’un email, et donc se faire passer pour une personne que vous connaissez.<br>Ils peuvent aussi cloner un site WEB offciel que vous connaissez afin de vous y faire rentrer vos informations et les récuperer par la suite.<br>Et tout autres techniques, qui, misent bout à bout peuvent être redoutable et le phishing très dur à repérer.</p>
+<p>Les attaques par mot de passe<br>Nous y reviendrons par la suite pour voir comment essayer de s’en proteger au maximum mais le principe est assez simple.<br>Tout le monde possède des mots de passe pour se connecter à son ordinateurs, a ses différents comptes, etc… Le but pour un attaquant est de récupérer votre mot de passe afin de pouvoir s’authentifier à votre place.</p>
+<p>La récupération de ce dernier peut être physique, tant en fouillant votre bureau, qu’en vous intimidant physiquement, que de manière informatique, en piratant une base de donnée, en écoutant et surveilant un réseau ou encore même en le devinant.</p>
+<p>Les deux attaques par mot de passe les plus connues sont :</p>
+<ul>
+<li>Le brute force ; qui consiste a essayer de manière aléatoire différents mots de passe qui serait suceptibles d’être utiliser comme le nom de votre chien, votre date de naissance ou autre en espérant tomber sur le bon.</li>
+<li>Les attaques par disctionnaire ; qui repose sur le même fonctionnement que le brute force, c’est à dire que nous allons essayer une combinaisons de mot de passe très rapidement pour essayer de tomber sur le bon. Cependant, cette attaque utilise ce qu’on appel des dictionnaires, ce sont des tableaux immenses de mot de passe courrament utilisé tel que “Azerty123”, etc… Les dictionnaires peuvent aussi être générer par l’attaquant afin de le personnaliser pour chaque cible et donc essayer par exemple le nom de votre chien et toutes les variantes possible.</li>
+</ul>
+<p>exemple :<br>Hector<br>HECTOR<br>hector<br>HeCtOr<br>H3T0R<br>Hectorr<br>…</p>
+<p>Les attaques par logiciels malveillant<br>U logiciel malveillant c’est simplement un logiciel qui est installé sur votre machine sans votre permission qui va exécuté différentes action dans le but de vous nuir ou de récupérer les informations.<br>Il existe une multitudes de logiciel malveillant… Les plus courant sont : </p>
+<ul>
+<li>Les cevaux de Troie</li>
+<li>Les virus</li>
+<li>les spyware</li>
+<li>les keylogger</li>
+<li>les ransonwares</li>
+<li>les worms</li>
+</ul>
+<p>Et la liste est encore longue.<br>Cependant un cours en dédidé aux différents logiciel malveillant et je vous invite donc à vous y diriger si vous voulez en connaitre un peut plus sur ce sujet. Dans ce cours nous voyons nottament la création d’un ransonware basique avec python. </p>
+<p>Le social engineering<br>Le plus destructeur de tous, car le seul anti virus qui peut arreter celui ci, c’est l’être Humain et vous le savez, personne n’est infaillible.<br>Le social engineering est une technique qui peut être rajouté a plusieurs attaques vu ci dessus pour simplifier l’intrusion dans un système ou la collecte d’information tel que le phishing par exemple.<br>Le but est de jouer sur un plan social afin de faire croire ou faire profiter l’attaquant d’une situation avantageuse. </p>
+<h2 id="Les-mots-de-passes-creation-et-utilisation"><a href="#Les-mots-de-passes-creation-et-utilisation" class="headerlink" title="Les mots de passes, création et utilisation"></a>Les mots de passes, création et utilisation</h2><p>Nous avons tous des mots de passe, que ca soit pour dévérouiller notre ordinateur, nous connecter sur des sites sur inetnet ou encore pour notre téléphone (sous forme de code).</p>
+<p>Mais avez vous un mot de passe sécurisé ? </p>
+<p>Les critères en matière d’administration dans une entreprise c’est souvent :</p>
+<ul>
+<li>Un mot de passe de minimum 12 caractères</li>
+<li>Avec des chiffres</li>
+<li>Des lettres en minuscules et en MAJUSCULES</li>
+<li>Des caractères spéciaux</li>
+</ul>
+<p>Et malheureusement, cela donne quand même lieu à des mots de passe de type :</p>
+<p>Azertyuiop123.</p>
+<p>Niveau sécurité, cela prendrait quelques seconde à trouver. </p>
+<p>C’est pourquoi nous allons voir comment créer un mot de passe sécurisé, comment l’utiliser et les bons réflexes à avoir.</p>
+<p>Déjà, vous devez savoir qu’aucun mot de passe n’est inviolable, le but, c’est seulement de le rendre très long à déchiffrer afin de décourager l’attaquant de poursuivre ses recherches.</p>
+<p>A partir du moment ou vous comrennez cela, vous êtres prêt pour créer votre mot de passe.<br>Les règles sont simple : </p>
+<ul>
+<li>Une chaine de caractère aussi longue que vous voulez mais sachez que plus elle sera longue plus elle sera complexe et donc difficile à trouver. Un minimum de 12 à 16 caratères c’est déjà un bon début.</li>
+<li>Des chiffres, des lettres en minuscules et MAJUSCULES, ainsi que des caractères spéciaux.</li>
+<li>Une chaine de caractère aléatoire, c’est à dire qu’il faut éviter les paternes simple ou à répétition tel que azerty… ou abcdef…</li>
+</ul>
+<p>Maintenant que vous avez votre mot de passe complexe et unique (j’y reviendrai), vous devez le retenir, pas simple ? ça viendra.</p>
+<p>Nous allons pouvoir maintenant télécharger un coffre fort de mot de passe comme Keepass.<br>Ce coffre fort vous permet nottament de :</p>
+<ul>
+<li>Générer des mot de passe fort avec les règles que nous avons vu précédement.</li>
+<li>Retenir vos mot de passe pour vous.</li>
+</ul>
+<p>En pratique, c’est ce que j’utilise. Je ne connais aucun de mes mots de passe, sauf un seul, celui de mon coffre fort de mot de passe pour le déverouiller.<br>Une fois que j’ai besoin d’un mot de passe pour un site en particulier je vais chercher dans ce dernier le mot de passe correspondant en le copiant et collant sur le site.</p>
+<p>Cela me permet donc de toujours avoir des mots de passe fort et complexe, de ne pas perdre mes mots de passe et surtout d’avoir des mots de passe unique pour chaque site.</p>
+<p>Des coffres fort à mot de passe il en existe plein, c’est à vous de trouver celui qui vous correspond le mieux mais faites quand même vos recherches avant de le remplir. </p>
+<p>Voici les deux qui me vient à l’esprit : </p>
+<ul>
+<li>Keepass : gratuit, simple et robuste. lourd d’utilisation.</li>
+<li>Dashlane : Simple, robuste et s’intègre au web ce qui permet une utilisation plus ergonomique. Necessite de payer un abonnement.</li>
+</ul>
+<blockquote>
+<p>Les mots de passe sont les clés du royaume.</p>
+</blockquote>
+<h2 id="Les-bons-reflexes-a-avoir-lors-de-la-reception-d’un-mail"><a href="#Les-bons-reflexes-a-avoir-lors-de-la-reception-d’un-mail" class="headerlink" title="Les bons reflexes à avoir lors de la réception d’un mail"></a>Les bons reflexes à avoir lors de la réception d’un mail</h2><p>Une fois que vous recevez un mail suspect ou d’un haute importance comme un mail de votre banque, il est important de vérifier quelques informations pour éviter de se faire pieger.</p>
+<p>Comme nous l’avons vu précédement, les mails piéger peuvent être très réalistes et convaincants.</p>
+<p>C’est pourquoi voici quelques informations à vérifier :</p>
+<ul>
+<li>L’adresse mail réél d’envoie du mail et non le nom qui apparait en haut.<br>Le nom qui apaprait peut être “mabanque.fr” et légitime mais l’adresse mail qui y correspond peut être une adresse mail malveillante. Au premier coup d’oeil et sans faire attention vous pouvez penser que c’est un mail officiel de votre banque, alors que non.</li>
+<li>La forme du mail générale.<br>Même si la forme du mail et la construction de ce dernier peuvent être très réaliste, parfois, vous pouvez y trouver des petits erreurs qui sont suceptible de trahir le mail.</li>
+<li>Les fautes d’orthographes.<br>Il existe maintenant pas mal de moyens de traduire des textes dans différentes langues, car les attaquants ne sont pas forcement originaire du même pays que vous. Cependant, vous pouvez trouver quelques fautes d’orthographes, même si c’est de plus en plus rare à cause de la précision des logiciels de traduction et de correction.</li>
+<li>Les URLs présent dans le mail.<br>Il faut aussi vérifier les URLs sans pour autant cliquer dessus. NE CLIQUEZ JAMAIS sur un URLs dans un mail dont vous n’êtes pas sûr de l’origine.<br>Vous pouvez, en passant votre souris au dessus, avoir un aperçu du site vers lequel est dirigé l’URL.</li>
+<li>N’OUVREZ JAMAIS une pièce jointe dont vous ne connaissez pas l’origine. Dans le même contexte que le lien malveillant, la pièce jointe peut être piégé.</li>
+<li>Ne communiquez pas d’informations sensible par mail.<br>La plupart du temps, pour vous demander des informations sensible ou confidentielles, les sociétés vous redirigerons sur un portail sécuriser afin de protéger vos données.</li>
+<li>Ne vous laisser pas tromper par des offres trop alléchante.<br>Aucune société normalement constitué ne vous enverra un mail pour vous offrir un iphone ou tout autre de cadeau gratuitement… à l’inverse ne vous laisser pas intimidé par des mail menacant de certains services.</li>
+</ul>
+<p>Quelques exemples de mails de phishing :</p>
+<ul>
+<li>Demande de mise a jour ou de confirmations d’informations personnelles.</li>
+<li>Défauts de paiement ou problème de facturation.</li>
+<li>Demande d’informations contre un cadeau.</li>
+<li>Appel aux dons.</li>
+<li>Demande d’aide d’un proche.</li>
+<li>Chaine de mail froduleux (les mails de noel à renvoyer à vos proches, etc…)</li>
+</ul>
+<p>exemple de mail froduleux :<br><img src="https://i.imgur.com/j5P6n3i.png"></p>
+<p>Dans ce mail, l’attaquant vous informe que votre compte en banque est bloqué.<br>Dans un premier temps, si vous el pouvez, rendez-vous dans votre application mobile pour savoir si c’est le cas, dans le cas contraire essayer sur internet, SANS cliquer sur le lien.<br>Rien qu’en vérifiant cette information vous hotez 90% des doutes.</p>
+<p>Ensuite, nous pouvons voir que l’attaquant, vous incite à cliquer sur le lien en créer une situation d’urgence.<br>De plus la tournure des phrase est un peut trop familière pour un mail offciel d’une banque :<br>“L’ensemble du processus ne prendra que 5 minutes. Vous devez agir maintenant pour résoudre le problème le plus rapidement possible.”</p>
+<h2 id="Les-bons-reflexes-a-avoir-sur-internet"><a href="#Les-bons-reflexes-a-avoir-sur-internet" class="headerlink" title="Les bons reflexes à avoir sur internet."></a>Les bons reflexes à avoir sur internet.</h2><p>Internet est très vaste et ne peut pas être infaillible.<br>Cependant, en adoptant certains bons reflexes, vous pouvez limiter les chances de vous faire infecter ou attaquer.<br>C’est pourquoi, vous devez rester vigilant quant à ce que vous faites ou dites sur internet.</p>
+<ul>
+<li>Les certificats SSL des sites internet.<br>Un site internet possède une adresse IP qui est ensuite traduite par le serveur DNS, ce qui permet au site d’avoir un nom plutôt que de devoir taper l’adresse IP à chaque fois que vous souhaitez vous y connecter.<br>Le site recoir donc un URL, choisi au préalable et a la possibilité d’activer le certificat SSL.<br>Grossièrement cela permet de sécuriser la page internet et par la même occasion de certifier l’authenticité du site car il est distribuer par une autorité tiers.<br>Un site est dit “sûr” quand il a un certificat SSL conforme et qu’il est activé en HTTPS.</li>
+</ul>
+<blockquote>
+<p>HTTP : HyperText Transfert Protocol</p>
+</blockquote>
+<p>Le “S” de HTTPS c’est pour Secure, cela certifit la présence d’un certificat SSL.<br>Sur la plupart des site moteur de recherche, cela est représenté par un petit cadena en haut a gauche.</p>
+<p><img src="https://i.imgur.com/ZrPc21F.png"></p>
+<p>Ce cadena montre la présence d’un certificat SSL. Vous pouvez cliquer dessus afin de voir les informations de ce dernier.</p>
+<p>De ce fait, il est vivement conseiller et recommandé de ne pas effectué de paiement ou de renseigner des informations sensibles sur des sites en HTTP.</p>
+<ul>
+<li>Eviter les informations sensibles.<br>En règle générale et pour revenir sur la première, il est conseillé de ne pas renseigné d’informations sensible sur internet.<br>Evitez donc les informations bancaire, d’écrire votre mot de passe en dehors des champs requis pour se connecter ou encore des informations personnelles ou professionnelles sur des plateforme en ligne et publique.</li>
+</ul>
+<p>Pourquoi ?<br>Même si un site peut être sécurisé et nécessite une authentification pour y accéder, ce dernier peut être compromis. Si c’est le cas, l’attaquant peut potentiellement récupérer les informations des bases de données. </p>
+<p>De plus, les informations lors d’une conversation ne sont pas forcement chiffré et donc plus facilement récupérable en cas d’attaque.</p>
+<blockquote>
+<p>Gardez une hygiène numérique propre. Eviter de trop vous exposer et d’exposer vos informations.</p>
+</blockquote>
+<ul>
+<li><p>N’enregistrez pas vos mots de passe sur votre navigateur ou dans votre ordinateur.<br>Préférez comme expliqué dans le chapitre 2 un mot de passe fort, unique à chaque plateforme et stocké dans un coffre fort de mot de passe. Cela limitera les risque en cas d’attaque sur votre machine.</p>
+</li>
+<li><p>Ne cliquez pas sur n’importe quoi.<br>Prennez le temps de lire et de réfléchir à deux fois avant de cliquer sur quelque chose.<br>Il y a beaucoup de pop-up qui s’ouvre et la plupart du temps on clique sans forcement réfléchir. Malheureusement c’est pas ce qu’il faut faire. Prennez le temps de vous informer.</p>
+</li>
+</ul>
+<p>C’est comme les cookies, même si ce sont des gâteaux très appétissants ce n’est pas la peine de les accepter tout le temps. Vous pouvez quand le site le permet de personnalisé les cookies, décochez les cases qui vous parraissent pertinentes. </p>
+<ul>
+<li>Pas seulement sur votre ordinateur.<br>Bien sûr, vous devez appliquer tout cela sur votre ordinateur mais aussi sur votre téléphone et tablette.</li>
+</ul>
+<h2 id="Les-bons-reflexes-a-avoir-au-travail"><a href="#Les-bons-reflexes-a-avoir-au-travail" class="headerlink" title="Les bons reflexes à avoir au travail."></a>Les bons reflexes à avoir au travail.</h2><p>Au travail comme à la maison il est important de garder un environnement de travail propre. Mais, reste à chacun de définir le mot “propre”.</p>
+<p>Toutefois, vous devez adopter des reflexes et habitudes importantes pour ne pas compromettre la sécurité de vos système ou de vos informations.</p>
+<ul>
+<li>Vérouillage de vos équipements quand vous vous déplacez.<br>Cette règle doit être la règle la plus importante de la liste. Il faut impérativement vérouiller votre poste de travail quand vous vous déplacer et que vous ne l’avez plus à vu.<br>Il suffit de quelques seconde sur un poste dévérouillé pour l’infecter. C’est pourquoi prennez le reflexe de le vérouiller.</li>
+</ul>
+<blockquote>
+<p>Sur windows : WINDOWS + L pour Lock le PC.</p>
+</blockquote>
+<ul>
+<li><p>Séparer la vie privé de la vie professionnelle.<br>Il faut réellement faire la différence entre la vie professionnelle et la vie privé. C’est pourquoi éviter toutes connexions sur les réseaux sociaux, sur des sites privés depuis des postes de travail professionnels. </p>
+</li>
+<li><p>Mettre a jour les logiciels.<br>Dans la mesure du possible, il faut garder les logiciels à jour afin de garantir la meilleure compatibilité avec votre système d’exploitation et de garder une sécurité optimale.<br>Plus un logiciel est sur une version antérieur, plus cela laisse de temps aux attaquants de trouver des vulnérabilités, qui, ces dernieres sont mise à jour et corrigé par les équipes de developpements logiciels.</p>
+</li>
+<li><p>Effectuer des sauvegardes régulières.<br>Comme vu plusieurs fois précédement, aucun système n’est invulnérable. C’est pourquoi, vous devez effectuer des sauvegardes de vos fichiers importants sur des supports externes (si vous le pouvez car souvent les ports USB sont bloqués sur les ordinateurs professionnels dans une mesure de sécurité). n’hésitez pas à avoir des “doublons” de vos fichiers pour garder une sauvegarde.<br>La solution peut être d’avoir vos fichiers en local sur votre machine ainsi qu’une sauvegarde en ligne sur les serveurs de votre entreprise.</p>
+</li>
+<li><p>Télécharger des programmes officiels<br>Dans 99% des entreprises, les logiciels sont déployers par l’équipe technique en charge de cette têche. Mais si vous devez le faire vous même, télécharger seulement les logiciels depuis les site officiel des développeurs de ces derniers.</p>
+</li>
+</ul>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/2022/11/13/hello-world/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+                Written by Peanut Hackademy Team
+                <br>
+            
+            
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+    
+
+  </body>
+</html>
